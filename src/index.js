@@ -5,11 +5,13 @@ import '/node_modules/bootstrap-icons/font/bootstrap-icons.css'
 import './index.css';
 import Navbar from './components/Navbar';
 import reportWebVitals from './reportWebVitals';
+import Hero from './components/Hero';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Navbar />
+    <Hero />
   </React.StrictMode>
 );
 
