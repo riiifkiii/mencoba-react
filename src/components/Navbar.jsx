@@ -29,7 +29,7 @@ export default function Navbar() {
             <button className='search flex items-center justify-center bg-red-500 hover:bg-red-600 w-8 h-8 text-xl text-white rounded' onClick={search}><CiSearch /></button>
             <div className="search-screen hidden absolute top-0 left-0 px-5 bg-red-500 w-full h-full text-center pt-10">
                 <h2 className='text-white text-2xl font-bold uppercase mb-5'>Search</h2>
-                <input type="text" className='rounded h-10 w-[80%] text-center md:w-[60%]' placeholder='Movies, Tv Show and Actors'/>
+                <input type="text" className='search-field rounded h-10 w-[80%] text-center md:w-[60%]' placeholder='Movies, Tv Show and Actors'/>
                 <button className="close absolute right-5 top-4 text-xl text-white hover:border border-white w-8 h-8 rounded flex items-center justify-center" onClick={search}><CiMedicalCross className='rotate-[45deg]' /></button>
             </div>
         </div>

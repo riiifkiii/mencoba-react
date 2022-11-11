@@ -4,11 +4,13 @@ import '/node_modules/bootstrap-icons/font/bootstrap-icons.css'
 import './index.css';
 import Navbar from './components/Navbar';
 import reportWebVitals from './reportWebVitals';
+import Swwiper from './components/Swiper';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode> 
     <Navbar />
+    <Swwiper />
   </React.StrictMode>
 );
 
